@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+
+body{
+    padding: 5px 30px 5px 30px;
+    margin: 0;
+    
+}
+
+.locator{
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: larger;
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+.res{
+    padding: 5px 10px 5px 10px;
+    margin: 0px 20px 0px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: larger;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    background-color: white;
+    cursor: pointer;
+}
+
+.res:hover{
+    border-color: black;
+}
+
+.enter{
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.enter h1{
+    font-size: 60px;
+    font-family: 'Press Start 2P';
+}
+
+.enter h2{
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lef{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.righ img{
+    width: 50vh;
+    height: 65vh;
+    border-radius: 15px;
+}
+
+
+
+.detail{
+    height: 550px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.detail h1{
+    color: #efd033;
+}
+
+font{
+    font-family: 'Roboto Slab', serif;
+}
+
+.detail p{
+    padding: 0px 40px 0px 40px;
+    font-weight: 40;
+    font-size: x-large;
+    font-family: 'Kay Pho Du', serif;
+}
+
+.spec{
+    height: 600px;
+    background-color: black;
+    color: #efd033;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.set1{
+    display: flex;
+    flex-direction: row;
+}
+
+.spec .first1,.second1,.third1,.fourth1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    color: black;
+    background-color: #f5f5dc;
+    margin: 20px 20px 20px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.spec h1{
+    padding: 20px 0px 0px 0px;
+}
+
+.spec h2{
+    padding-bottom: 0px;
+}
+
+.project{
+    height: 400px;
+    background-color: black;
+    color: #efd033;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Dela Gothic One', sans-serif;
+}
+
+.project .set2{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project .P1,.P2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+    background-color: #f5f5dc;
+    color: black;
+    margin: 5px 20px 5px 20px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.project p{
+    font-family: 'Kay Pho Du', serif;
+    padding: 0px 15px 0px 15px;
+}
+
+.info{
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px 0px 20px 0px;
+}
+
+.close{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+}
+
+
